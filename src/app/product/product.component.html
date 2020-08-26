@@ -1,0 +1,16 @@
+
+<app-productcopy></app-productcopy>
+<p>product works!</p>
+
+<p *ngIf="showCourse">The course I have chosen is {{course}}</p>
+
+
+<button (click)="submit()">Click Me!</button>
+
+<br>
+<input type="text" [value]=course>
+
+
+<ul *ngFor="let item of products">
+<li>{{item.id}},{{item.name | uppercase}}, {{item.price |netPrice}}</li>
+</ul>
