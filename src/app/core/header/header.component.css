@@ -1,0 +1,10 @@
+li{
+    list-style:none;
+}
+ul{
+    background-color: beige;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
